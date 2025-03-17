@@ -1,0 +1,120 @@
+*{
+    font-family: 'inter';
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*-- Seção Cabeçalho --*/
+#secao-cabecalho{
+    background-color: #303030;
+    color: #FFFFFF;
+    min-height: 475px;
+    padding: 0 62px;
+}
+
+#titulo-secao-cabecalho{
+    font-weight: 600;
+    font-size: 60px;
+    margin-bottom: 20px;
+    padding-top: 150px;
+}
+
+#paragrafo-secao-cabecalho{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+/*-- Seção Informacional --*/
+#secao-informacional{
+    background-color: #F9F9F9;
+    color: #000000;
+    height: 229px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding-left: 172px;
+}
+
+#secao-informacional h1{
+    font-size: 40px;
+}
+
+#secao-informacional p{
+    font-size: 20px;
+}
+
+/*-- Seção Descrição --*/
+#secao-descricao{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    align-items: center;
+    padding-left: 77px;
+}
+
+#secao-descricao h2{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+#secao-descricao p{
+    font-size: 24px;
+}
+
+#secao-descricao img{
+    margin-top: 82px;
+    margin-bottom: 92px;
+    border-radius: 30px;
+}
+
+/*-- Seção Formulário --*/
+#secao-formulario{
+    background-color: #303030;
+    height: 638px;
+    text-align: center;
+}
+
+#secao-formulario h2{
+    color: #FFFFFF;
+    padding-top: 87px;
+    margin-bottom: 18px;
+    font-size: 32px;
+}
+
+input{
+    background-color: #FFFFFF;
+    color: #0000004D;
+    padding-left: 30px;
+    font-size: 24px;
+    font-weight: 700;
+    width: 100%;
+    max-width: 508px;
+    height: 72px;
+    margin: 30px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 286px;
+    height: 74px;
+    margin-top: 58px;
+    border: 0px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-family: "Raleway";
+    font-size: 30px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #b98544;
+    color: #FFFFFF;
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
+    box-shadow: 0px 15px 20px #05103081;
+}
